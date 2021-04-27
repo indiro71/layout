@@ -30,7 +30,3 @@ body {
     margin-top: 50px;
     transform: scale(1.04);
 }
-
-.link {
-    @apply text-blue-600 opacity-80 hover:underline hover:opacity-100 transition cursor-pointer;
-}
