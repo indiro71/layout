@@ -1,5 +1,6 @@
 import React from 'react';
 import { Header } from './header/Header';
+import { PageTransition } from 'next-page-transitions';
 
 export const Content = ({ content, project }) => {
     return (
@@ -7,7 +8,9 @@ export const Content = ({ content, project }) => {
             <Header project={project}/>
 
             <div className="container m-auto py-3">
-                {content}
+                <PageTransition timeout={300} classNames="page-transition">
+                    {content}
+                </PageTransition>
             </div>
         </div>
     );
