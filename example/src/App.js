@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, NavLink } from 'react-router-dom';
-import { LayoutComponent } from 'layout';
+import { LayoutComponent } from 'src';
 import leftMenuItems from './data/leftMenuItems';
 
 import 'layout/dist/index.css'
